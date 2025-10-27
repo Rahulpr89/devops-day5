@@ -31,6 +31,7 @@ jobs:
     - name: Tag Docker image
       run: docker tag my-web-ecr:latest 832721971180.dkr.ecr.us-east-1.amazonaws.com/my-web-ecr:latest
       
+
   
     - name: Deploy to ECS
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1.4.0
