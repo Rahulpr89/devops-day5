@@ -36,7 +36,7 @@ jobs:
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1.4.0
       with:
         task-definition: ecs-task-def.json
-        service: my-service
+        service: my-app-tast-service-zxjou1x0 
         cluster: devops-cluster
         wait-for-service-stability: true
 
